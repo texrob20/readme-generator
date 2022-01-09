@@ -1,5 +1,6 @@
 # r
-  ![badge](https://img.shields.io/badge.license-GNU AGPLv3-brightgreen)<br />
+  
+  ![badge](https://img.shields.io/badge/License-MIT-yellow.svg)<br />
 
   ## Description
   r
@@ -20,8 +21,8 @@
   r
 
   ## License
-  ![badge](https://img.shields.io/badge/license-GNU AGPLv3-brightgreen)<br />
-  This application is covered by the GNU AGPLv3 license. 
+  ![badge](https://img.shields.io/badge/License-MIT-yellow.svg)<br />
+  This application is covered by the Apache License 2.0 <src=https://opensource.org/licenses/MIT> license. 
 
   ## Contributing
   r
