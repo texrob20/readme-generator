@@ -25,7 +25,10 @@ In the generateMarkdown.js app, the user's inputted information is added to the 
 The README file is created in the WritetoFile function and created as a file called generated-README.md.
 
 ## Demo Video 
-https://github.com/texrob20/readme-generator/blob/main/demo/Node_js_challenge_demo.webm
+https://github.com/texrob20/readme-generator/blob/main/demo/Node_js_challenge_demo.webm or
+
+https://watch.screencastify.com/v/k8OI5PG8kn3fSLKR0Yek
+
 Generated README - https://github.com/texrob20/readme-generator/blob/main/generated-README.md
 
 
