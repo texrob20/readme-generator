@@ -48,7 +48,7 @@ function generateMarkdown(data) {
 
   ## License
   ![badge](${license.link})<br />
-  This application is covered by the ${data.license} <src=${license.site}> license. 
+  This application is covered by the [${data.license}] (${license.site}) license. 
 
   ## Contributing
   ${data.contributing}

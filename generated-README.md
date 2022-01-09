@@ -22,7 +22,7 @@
 
   ## License
   ![badge](https://img.shields.io/badge/License-MIT-yellow.svg)<br />
-  This application is covered by the Apache License 2.0 <src=https://opensource.org/licenses/MIT> license. 
+  This application is covered by the [Mozilla Public License 2.0] (https://opensource.org/licenses/MIT) license. 
 
   ## Contributing
   r
