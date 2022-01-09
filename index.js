@@ -4,7 +4,7 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 const { resolve } = require('path');
 const Prompt = require('inquirer/lib/prompts/base');
 var generatedContent = "";
-
+// question set used to prompt user for information to generate README
 const questions = [
     {
       type: 'input',
@@ -89,7 +89,7 @@ const questions = [
     }
 ];
 
-// TODO: Create a function to write README file
+// creates the README file based on the generated markdown information
 function writeToFile() {
     fs.writeFile('generated-README.md', generatedContent, function(err) {
       if (err) throw err;
@@ -97,7 +97,7 @@ function writeToFile() {
     });
   }
 
-// TODO: Create a function to initialize app
+// Prompts user for answers, feeds answers to generateMarkdown, and writes to file
 function init() {
   inquirer.prompt(questions)
   .then (answers => {

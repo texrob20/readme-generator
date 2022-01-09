@@ -1,5 +1,5 @@
 var license = {};
-
+// uses license answer to generate links for image and site
 function renderLicense(data) {
   if (data.license != 'none') {
     switch (data.license) {
@@ -20,7 +20,7 @@ function renderLicense(data) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// generates markdown for README
 function generateMarkdown(data) {
   renderLicense(data);
 
