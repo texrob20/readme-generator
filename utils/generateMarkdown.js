@@ -48,7 +48,7 @@ function generateMarkdown(data) {
 
   ## License
   ![badge](${license.link})<br />
-  This application is covered by the [${data.license}] (${license.site}) license. 
+  This application is covered by the ${data.license} license. More information can be found at ${license.site}.
 
   ## Contributing
   ${data.contributing}
@@ -58,7 +58,9 @@ function generateMarkdown(data) {
 
   ## Questions
   
-  Find me on GitHub - ${data.username}, (http://github.com/${data.username}/)
+  Contant me on GitHub - ${data.username}, (http://github.com/${data.username}/)
+
+  or 
 
   Email me with questions: ${data.email}
 

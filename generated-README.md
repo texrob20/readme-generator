@@ -1,9 +1,9 @@
-# r
+# Readme Generator
   
   ![badge](https://img.shields.io/badge/License-MIT-yellow.svg)<br />
 
   ## Description
-  r
+  A Node js app that creates a professional readme file.
 
   ## Table of Contents
   - [Description](#description)
@@ -15,25 +15,27 @@
   - [Questions](#questions)
 
   ## Installation
-  r
+  None required.
 
   ## Usage
-  r
+  Used to create readme file.
 
   ## License
   ![badge](https://img.shields.io/badge/License-MIT-yellow.svg)<br />
-  This application is covered by the [Mozilla Public License 2.0] (https://opensource.org/licenses/MIT) license. 
+  This application is covered by the MIT license. More information can be found at https://opensource.org/licenses/MIT.
 
   ## Contributing
-  r
+  All are welcome to contribute.
 
   ## Tests
-  r
+  No tests
 
   ## Questions
   
-  Find me on GitHub - r, (http://github.com/r/)
+  Contant me on GitHub - texrob20, (http://github.com/texrob20/)
 
-  Email me with questions: r
+  or 
+
+  Email me with questions: rclarady@hotmail.com
 
   _This README was generated with ❤️ by [readme-generator](https://github.com/texrob20/readme-generator)
