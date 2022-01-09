@@ -1,5 +1,9 @@
 const inquirer = require('inquirer');
+const fs = require('fs');
+const name = '../utils/README.md';
 const generateMarkdown = require('./utils/generateMarkdown.js');
+const { resolve } = require('path');
+const Prompt = require('inquirer/lib/prompts/base');
 
 const questions = [
     {
@@ -86,16 +90,26 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(name, data) {
+    return fs.writeFile('./util/README.md', JSON.stringify(data))
+    }
 
+const promptUser =() => {
+  return inquirer.prompt(questions);
+}
+
+const answers = () =>{
+  return generateMarkdown(promptUser);
+}
 // TODO: Create a function to initialize app
 function init() {
-    return inquirer.prompt(questions);
+  promptUser()
+  .then (answers => {
+    return generateMarkdown(answers);
+  })  
+  .then (writeToFile(answers))  
+  .then (succes => {
+    console.log('✔️  Successfully wrote to README.md')});  
   };
 // Function call to initialize app
 init();
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
